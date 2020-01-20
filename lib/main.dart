@@ -91,7 +91,84 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            children: 
+            Text(
+              "Resultado"
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "1"
+                    )
+                ),
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "2"
+                    )
+                ),
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "3"
+                    )
+                ),
+              ]
+            ),
+            Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "4"
+                    )
+                ),
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "5"
+                    )
+                ),
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "6"
+                    )
+                ),
+              ]
+            ),
+            Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+              children:<Widget>[
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "7"
+                    )
+                ),
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "8"
+                    )
+                ),
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "9"
+                    )
+                ),
+              ]
+            ),
+            RaisedButton(
+              onPressed: _incrementCounter,
+              child: Text(
+                "0"
+              ),
+            )
           ],
         ),
       ),
