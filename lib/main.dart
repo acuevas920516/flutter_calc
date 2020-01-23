@@ -114,115 +114,259 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                RaisedButton(
-                    onPressed: () => _incrementCounter("1"),
-                    child: Text(
-                        "1"
-                    )
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 80.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "7",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
+                  ),
                 ),
-                RaisedButton(
-                    onPressed: () => _incrementCounter("2"),
-                    child: Text(
-                        "2"
-                    )
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 80.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "8",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
+                  ),
                 ),
-                RaisedButton(
-                    onPressed: () => _incrementCounter("3"),
-                    child: Text(
-                        "3"
-                    )
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 80.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "9",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
+                  ),
                 ),
-                RaisedButton(
-                    onPressed: () => _incrementCounter("/"),
-                    child: Text(
-                        "/"
-                    )
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 80.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "/",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
+                  ),
                 ),
               ]
             ),
             Row(
                 mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                RaisedButton(
-                    onPressed: () => _incrementCounter("4"),
-                    child: Text(
-                        "4"
-                    )
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 80.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "4",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
+                  ),
                 ),
-                RaisedButton(
-                    onPressed: () => _incrementCounter("5"),
-                    child: Text(
-                        "5"
-                    )
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 80.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "5",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
+                  ),
                 ),
-                RaisedButton(
-                    onPressed: () => _incrementCounter("6"),
-                    child: Text(
-                        "6"
-                    )
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 80.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "6",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
+                  ),
                 ),
-                RaisedButton(
-                    onPressed: () => _incrementCounter("*"),
-                    child: Text(
-                        "*"
-                    )
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 80.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "*",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
+                  ),
                 ),
               ]
             ),
             Row(
                 mainAxisAlignment: MainAxisAlignment.center,
               children:<Widget>[
-                RaisedButton(
-                    onPressed: () => _incrementCounter("7"),
-                    child: Text(
-                        "7"
-                    )
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 80.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "1",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
+                  ),
                 ),
-                RaisedButton(
-                    onPressed: () => _incrementCounter("8"),
-                    child: Text(
-                        "8"
-                    )
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 80.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "2",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
+                  ),
                 ),
-                RaisedButton(
-                    onPressed: () => _incrementCounter("9"),
-                    child: Text(
-                        "9"
-                    )
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 80.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "3",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
+                  ),
                 ),
-                RaisedButton(
-                    onPressed: () => _incrementCounter("+"),
-                    child: Text(
-                        "+"
-                    )
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 80.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "+",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
+                  ),
                 ),
               ]
             ),
             Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children:<Widget>[
-                  RaisedButton(
-                    onPressed: () => _incrementCounter("."),
-                    child: Text(
-                        "."
+                  new Container(
+                    margin: EdgeInsets.all(5.0),
+                    child: new SizedBox(
+                      width: 170.0,
+                      height: 80.0,
+                      child: RaisedButton(
+                          onPressed: _incrementCounter,
+                          child: Text(
+                              "0",
+                            style: new TextStyle(
+                              fontSize: 25.0
+                            ),
+                          )
+                      ),
                     ),
                   ),
-                  RaisedButton(
-                    onPressed: () => _incrementCounter("0"),
-                    child: Text(
-                        "0"
+                  new Container(
+                    margin: EdgeInsets.all(5.0),
+                    child: new SizedBox(
+                      width: 80.0,
+                      height: 80.0,
+                      child: RaisedButton(
+                          onPressed: _incrementCounter,
+                          child: Text(
+                              ".",
+                            style: new TextStyle(
+                                fontSize: 25.0
+                            ),
+                          )
+                      ),
                     ),
                   ),
-                  RaisedButton(
-                    onPressed: () => _incrementCounter("00"),
-                    child: Text(
-                        "00"
-                    ),
-                  ),
-                  RaisedButton(
-                    onPressed: () => _incrementCounter("-"),
-                    child: Text(
-                        "-"
+                  new Container(
+                    margin: EdgeInsets.all(5.0),
+                    child: new SizedBox(
+                      width: 80.0,
+                      height: 80.0,
+                      child: RaisedButton(
+                          onPressed: _incrementCounter,
+                          child: Text(
+                              "-",
+                            style: new TextStyle(
+                                fontSize: 25.0
+                            ),
+                          )
+                      ),
                     ),
                   ),
                 ]
@@ -230,27 +374,42 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                RaisedButton(
-                  onPressed: () => _incrementCounter("CE"),
-                  child: Text(
-                      "CE"
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 170.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "CE",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
                   ),
                 ),
-                RaisedButton(
-                  onPressed: () => _incrementCounter("="),
-                  child: Text(
-                      "="
+                new Container(
+                  margin: EdgeInsets.all(5.0),
+                  child: new SizedBox(
+                    width: 170.0,
+                    height: 80.0,
+                    child: RaisedButton(
+                        onPressed: _incrementCounter,
+                        child: Text(
+                            "=",
+                          style: new TextStyle(
+                              fontSize: 25.0
+                          ),
+                        )
+                    ),
                   ),
                 ),
               ]
             )
           ],
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => _incrementCounter("+"),
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
