@@ -110,6 +110,11 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             TextField(
               controller: txt,
+              enabled: false,
+              textAlign: TextAlign.right,
+              style: new TextStyle(
+                  fontSize: 30.0,
+              ),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -120,7 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("7"),
                         child: Text(
                             "7",
                           style: new TextStyle(
@@ -136,9 +141,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("8"),
                         child: Text(
-                            "8",
+                          "8",
                           style: new TextStyle(
                               fontSize: 25.0
                           ),
@@ -152,7 +157,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("9"),
                         child: Text(
                             "9",
                           style: new TextStyle(
@@ -168,7 +173,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("/"),
                         child: Text(
                             "/",
                           style: new TextStyle(
@@ -189,7 +194,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("4"),
                         child: Text(
                             "4",
                           style: new TextStyle(
@@ -205,7 +210,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("5"),
                         child: Text(
                             "5",
                           style: new TextStyle(
@@ -221,7 +226,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("6"),
                         child: Text(
                             "6",
                           style: new TextStyle(
@@ -237,7 +242,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("*"),
                         child: Text(
                             "*",
                           style: new TextStyle(
@@ -258,7 +263,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("1"),
                         child: Text(
                             "1",
                           style: new TextStyle(
@@ -274,7 +279,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("2"),
                         child: Text(
                             "2",
                           style: new TextStyle(
@@ -290,7 +295,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("3"),
                         child: Text(
                             "3",
                           style: new TextStyle(
@@ -306,7 +311,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("+"),
                         child: Text(
                             "+",
                           style: new TextStyle(
@@ -327,7 +332,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       width: 170.0,
                       height: 80.0,
                       child: RaisedButton(
-                          onPressed: _incrementCounter,
+                          onPressed: () => _incrementCounter("0"),
                           child: Text(
                               "0",
                             style: new TextStyle(
@@ -343,7 +348,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       width: 80.0,
                       height: 80.0,
                       child: RaisedButton(
-                          onPressed: _incrementCounter,
+                          onPressed: () => _incrementCounter("."),
                           child: Text(
                               ".",
                             style: new TextStyle(
@@ -359,7 +364,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       width: 80.0,
                       height: 80.0,
                       child: RaisedButton(
-                          onPressed: _incrementCounter,
+                          onPressed: () => _incrementCounter("-"),
                           child: Text(
                               "-",
                             style: new TextStyle(
@@ -380,7 +385,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 170.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("CE"),
                         child: Text(
                             "CE",
                           style: new TextStyle(
@@ -396,7 +401,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 170.0,
                     height: 80.0,
                     child: RaisedButton(
-                        onPressed: _incrementCounter,
+                        onPressed: () => _incrementCounter("="),
                         child: Text(
                             "=",
                           style: new TextStyle(
