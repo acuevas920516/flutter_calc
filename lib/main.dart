@@ -173,6 +173,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
+                        color: Colors.lightBlue,
+                        textColor: Colors.white,
                         onPressed: () => _incrementCounter("/"),
                         child: Text(
                             "/",
@@ -243,7 +245,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 80.0,
                     child: RaisedButton(
                         onPressed: () => _incrementCounter("*"),
+                        color: Colors.lightBlue,
+                        textColor: Colors.white,
                         child: Text(
+
                             "*",
                           style: new TextStyle(
                               fontSize: 25.0
@@ -307,10 +312,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 new Container(
                   margin: EdgeInsets.all(5.0),
+
                   child: new SizedBox(
+
                     width: 80.0,
                     height: 80.0,
                     child: RaisedButton(
+                        color: Colors.lightBlue,
+                        textColor: Colors.white,
                         onPressed: () => _incrementCounter("+"),
                         child: Text(
                             "+",
@@ -348,6 +357,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       width: 80.0,
                       height: 80.0,
                       child: RaisedButton(
+
                           onPressed: () => _incrementCounter("."),
                           child: Text(
                               ".",
@@ -364,6 +374,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       width: 80.0,
                       height: 80.0,
                       child: RaisedButton(
+                          color: Colors.lightBlue,
+                          textColor: Colors.white,
                           onPressed: () => _incrementCounter("-"),
                           child: Text(
                               "-",
@@ -385,6 +397,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 170.0,
                     height: 80.0,
                     child: RaisedButton(
+                        color: Colors.red,
+                        textColor: Colors.white,
                         onPressed: () => _incrementCounter("CE"),
                         child: Text(
                             "CE",
@@ -401,6 +415,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 170.0,
                     height: 80.0,
                     child: RaisedButton(
+                        color: Colors.green,
+                        textColor: Colors.white,
                         onPressed: () => _incrementCounter("="),
                         child: Text(
                             "=",
