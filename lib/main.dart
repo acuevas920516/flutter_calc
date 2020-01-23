@@ -115,6 +115,12 @@ class _MyHomePageState extends State<MyHomePage> {
                         "3"
                     )
                 ),
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "/"
+                    )
+                ),
               ]
             ),
             Row(
@@ -136,6 +142,12 @@ class _MyHomePageState extends State<MyHomePage> {
                     onPressed: _incrementCounter,
                     child: Text(
                         "6"
+                    )
+                ),
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "*"
                     )
                 ),
               ]
@@ -161,13 +173,59 @@ class _MyHomePageState extends State<MyHomePage> {
                         "9"
                     )
                 ),
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "+"
+                    )
+                ),
               ]
             ),
-            RaisedButton(
-              onPressed: _incrementCounter,
-              child: Text(
-                "0"
-              ),
+            Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children:<Widget>[
+                  RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "."
+                    ),
+                  ),
+                  RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "0"
+                    ),
+                  ),
+                  RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "00"
+                    ),
+                  ),
+                  RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "-"
+                    ),
+                  ),
+                ]
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                RaisedButton(
+                  onPressed: _incrementCounter,
+                  child: Text(
+                      "CE"
+                  ),
+                ),
+                RaisedButton(
+                  onPressed: _incrementCounter,
+                  child: Text(
+                      "="
+                  ),
+                ),
+              ]
             )
           ],
         ),
