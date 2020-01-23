@@ -117,6 +117,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 RaisedButton(
                     onPressed: _incrementCounter,
+                    color:  Colors.blueAccent,
+                    textColor: Colors.white,
                     child: Text(
                         "/"
                     )
@@ -146,6 +148,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 RaisedButton(
                     onPressed: _incrementCounter,
+                    color:  Colors.blueAccent,
+                    textColor: Colors.white,
                     child: Text(
                         "*"
                     )
@@ -175,6 +179,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 RaisedButton(
                     onPressed: _incrementCounter,
+                    color:  Colors.blueAccent,
+                    textColor: Colors.white,
                     child: Text(
                         "+"
                     )
@@ -204,6 +210,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   RaisedButton(
                     onPressed: _incrementCounter,
+                    color:  Colors.blueAccent,
+                    textColor: Colors.white,
                     child: Text(
                         "-"
                     ),
@@ -215,12 +223,16 @@ class _MyHomePageState extends State<MyHomePage> {
               children: <Widget>[
                 RaisedButton(
                   onPressed: _incrementCounter,
+                  color:  Colors.red,
+                  textColor: Colors.white,
                   child: Text(
                       "CE"
                   ),
                 ),
                 RaisedButton(
                   onPressed: _incrementCounter,
+                  color:  Colors.lightBlueAccent,
+                  textColor: Colors.white,
                   child: Text(
                       "="
                   ),
