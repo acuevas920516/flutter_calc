@@ -45,25 +45,15 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-  int _temp = 0;
-  final txt = TextEditingController();
 
-  void _incrementCounter(int value) {
+  void _incrementCounter() {
     setState(() {
-      if(value == -1)
-        {
-          if(_temp != 0)
-            _temp += _counter;
-          else
-            _temp = _counter;
-          _counter = 0;
-          txt.text = _counter.toString();
-        }
-      else {
-        String aux = _counter.toString() + value.toString();
-        _counter = int.parse(aux);
-        txt.text = _counter.toString();
-      }
+      // This call to setState tells the Flutter framework that something has
+      // changed in this State, which causes it to rerun the build method below
+      // so that the display can reflect the updated values. If we changed
+      // _counter without calling setState(), then the build method would not be
+      // called again, and so nothing would appear to happen.
+      _counter++;
     });
   }
 
@@ -101,28 +91,34 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            TextField(
-              controller: txt,
+            Text(
+              "Resultado"
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 RaisedButton(
-                    onPressed: () => _incrementCounter(1),
+                    onPressed: _incrementCounter,
                     child: Text(
                         "1"
                     )
                 ),
                 RaisedButton(
-                    onPressed:  () => _incrementCounter(2),
+                    onPressed: _incrementCounter,
                     child: Text(
                         "2"
                     )
                 ),
                 RaisedButton(
-                    onPressed:  () => _incrementCounter(3),
+                    onPressed: _incrementCounter,
                     child: Text(
                         "3"
+                    )
+                ),
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "/"
                     )
                 ),
               ]
@@ -131,21 +127,27 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 RaisedButton(
-                    onPressed:  () => _incrementCounter(4),
+                    onPressed: _incrementCounter,
                     child: Text(
                         "4"
                     )
                 ),
                 RaisedButton(
-                    onPressed:  () => _incrementCounter(5),
+                    onPressed: _incrementCounter,
                     child: Text(
                         "5"
                     )
                 ),
                 RaisedButton(
-                    onPressed:  () => _incrementCounter(6),
+                    onPressed: _incrementCounter,
                     child: Text(
                         "6"
+                    )
+                ),
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "*"
                     )
                 ),
               ]
@@ -154,36 +156,82 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
               children:<Widget>[
                 RaisedButton(
-                    onPressed:  () => _incrementCounter(7),
+                    onPressed: _incrementCounter,
                     child: Text(
                         "7"
                     )
                 ),
                 RaisedButton(
-                    onPressed:  () => _incrementCounter(8),
+                    onPressed: _incrementCounter,
                     child: Text(
                         "8"
                     )
                 ),
                 RaisedButton(
-                    onPressed:  () => _incrementCounter(9),
+                    onPressed: _incrementCounter,
                     child: Text(
                         "9"
                     )
                 ),
+                RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "+"
+                    )
+                ),
               ]
             ),
-            RaisedButton(
-              onPressed:  () => _incrementCounter(0),
-              child: Text(
-                "0"
-              ),
+            Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children:<Widget>[
+                  RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "."
+                    ),
+                  ),
+                  RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "0"
+                    ),
+                  ),
+                  RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "00"
+                    ),
+                  ),
+                  RaisedButton(
+                    onPressed: _incrementCounter,
+                    child: Text(
+                        "-"
+                    ),
+                  ),
+                ]
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                RaisedButton(
+                  onPressed: _incrementCounter,
+                  child: Text(
+                      "CE"
+                  ),
+                ),
+                RaisedButton(
+                  onPressed: _incrementCounter,
+                  child: Text(
+                      "="
+                  ),
+                ),
+              ]
             )
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed:  () => _incrementCounter(-1),
+        onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
